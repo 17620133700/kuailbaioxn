@@ -1,0 +1,201 @@
+.container {
+    width: 100%;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hk-lnleir {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 100%;
+}
+
+* {
+
+    margin: 0;
+}
+
+*,
+:after,
+:before {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.v-main {
+    background-color: var(--shop-background-color);
+    color: var(--shop-text-color);
+
+    .v-main__wrap {
+        display: flex;
+        flex-direction: column;
+
+        .store-content {
+            flex-grow: 1
+        }
+    }
+
+    ;
+}
+
+.theme--light.v-application {
+    background: #fff;
+    color: rgba(0, 0, 0, .87);
+}
+
+.v-application {
+    font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
+    text-rendering: optimizeLegibility;
+}
+
+.v-application {
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+attribute {
+    --shop-header-text-color: undefined;
+    --shop-background-color: #FBFBFB;
+    --shop-text-color: #333333;
+    --shop-button-background-color: #000000;
+    --shop-button-text-color: #ffffff;
+    --shop-nav-background-color: #FFFFFF;
+    --shop-nav-text-color: #000000;
+    --shop-nav-line-color: #EEEDEB;
+}
+
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    word-break: normal;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+:after,
+:before {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+
+::selection {
+    background: #00ab9c;
+    color: #FFF;
+}
+
+.v-application .pl-0 {
+    padding-left: 0 !important;
+}
+
+.v-application .align-center {
+    align-items: center !important;
+}
+
+.v-application .d-flex {
+    display: flex !important;
+}
+
+.v-application ol,
+.v-application ul {
+    padding-left: 24px;
+}
+
+.nav-item,
+.nav-list {
+    display: inline;
+}
+
+.nav-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+user agent stylesheet ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav-cate.active {
+    opacity: 1;
+}
+
+.nav-cate {
+    opacity: .5;
+}
+
+.nav-item,
+.nav-list {
+    display: inline;
+}
+
+user agent stylesheet li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.nav-item.active a {
+    font-weight: 600;
+}
+
+.v-application a {
+    color: #089b8e;
+}
+
+.nav-cate a {
+    font-size: 14px;
+}
+
+.nav-item a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    margin-right: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    color: var(--shop-nav-text-color) !important;
+    white-space: nowrap;
+}
+
+.v-application a {
+    cursor: pointer;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
